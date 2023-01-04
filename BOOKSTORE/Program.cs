@@ -16,7 +16,7 @@ namespace BOOKSTORE
     {
         public static void Main(string[] args)
         {
-            var webHost = CreateHostBuilder(args).Build()ss;ss
+            var webHost = CreateHostBuilder(args).Build();
 
             RunMigration(webHost);
 
